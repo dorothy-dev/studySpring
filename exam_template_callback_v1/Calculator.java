@@ -33,6 +33,7 @@ public class Calculator {
 		};
 		return fileReadTemplate(numFilepath, multiplyCallback);
 	}
+	
 	public Integer fileReadTemplate(String filepath, BufferedReaderCallback callback) throws IOException {
 	BufferedReader br = null;
 	try {
